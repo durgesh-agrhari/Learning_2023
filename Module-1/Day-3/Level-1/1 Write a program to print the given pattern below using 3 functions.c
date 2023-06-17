@@ -2,42 +2,36 @@
 
 // Function to print numbers from 1 to n
 void printNumbers(int n) {
-    int i;
-    for (i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++) {
         printf("%d", i);
     }
 }
 
-// Function to print spaces
+// Function to print spaces between numbers
 void printSpaces(int n) {
-    int i;
-    for (i = 1; i <= n; i++) {
+    for (int i = 1; i <= 2 * (n - 1); i++) {
         printf(" ");
     }
 }
 
 // Function to print numbers from n to 1
 void printReverseNumbers(int n) {
-    int i;
-    for (i = n; i >= 1; i--) {
+    for (int i = n; i >= 1; i--) {
         printf("%d", i);
     }
 }
 
 int main() {
-    int n, i;
-
+    int n;
     printf("Enter the value of n: ");
     scanf("%d", &n);
-
-    for (i = n; i >= 1; i--) {
-        printNumbers(i);                // Print numbers from 1 to i
-        printSpaces(2 * (n - i));       // Print spaces
-        if (i > 1) {
-            printReverseNumbers(i - 1); // Print numbers from i-1 to 1 (excluding 1)
-        }
+    
+    for (int i = n; i >= 1; i--) {
+        printNumbers(i);
+        printSpaces(i);
+        printReverseNumbers(i);
         printf("\n");
     }
-
+    
     return 0;
 }
