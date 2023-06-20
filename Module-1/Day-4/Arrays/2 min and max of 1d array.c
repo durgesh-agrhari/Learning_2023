@@ -25,7 +25,6 @@ int main()
         {
             max=a[i]; 
         }
-		   
 		         
     }
     printf("minimum of array is : %d",min);
