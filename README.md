@@ -1,21 +1,14 @@
 # Learning_2023 LTTS 
 
+Attempt to improve my problem solving skills <br/>
 
-
-
-
-
-
-
-
-Attempt to improve my problem solving skills
-
---> Tools used
+--> Tools used<br/>
 
 1. VS Code
 2. Git Bash
 3. Linux - Microsoft WSL (Ubuntu)
---> VS Code to GITHHUB
+   
+--> VS Code to GITHHUB <br/>
 
 1. git init
 
