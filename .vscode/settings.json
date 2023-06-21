@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "4 Pass a pointer to a structure as a parameter to a function and return back a pointer to structure to the calling function after modifying the members of structure.C": "cpp"
+    }
+}
